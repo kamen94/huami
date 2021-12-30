@@ -1,7 +1,7 @@
 let timestamp = "1623219867",
     VERSION = "precache-v" + timestamp,
     RUNTIME = "runtime-v" + timestamp;
-const PRECACHE_URLS = ["/"];
+const PRECACHE_URLS = ["/huami/"];
 self.addEventListener("install", (e => {
         e.waitUntil(caches.open(VERSION).then((e => e.addAll(PRECACHE_URLS))).then(self.skipWaiting()))
     })),
