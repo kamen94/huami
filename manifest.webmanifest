@@ -2,34 +2,33 @@
     "name": "花密",
     "short_name": "花密",
     "descriptions": "花密 FlowerPassword 可记忆、无储存，不一样的密码管理工具。",
-    "start_url": "/?from=pwa",
+    "start_url": "/huami/?from=pwa",
     "background_color": "#fff",
     "display": "standalone",
-    "scope": "/",
+    "scope": "/huami/",
     "theme_color": "#00A8FF",
-    "icons": [
-        {
-            "src": "/assets/img/icons/48.png",
+    "icons": [{
+            "src": "/huami/assets/img/icons/48.png",
             "sizes": "48x48",
             "type": "image/png"
         },
         {
-            "src": "/assets/img/icons/72.png",
+            "src": "/huami/assets/img/icons/72.png",
             "sizes": "72x72",
             "type": "image/png"
         },
         {
-            "src": "/assets/img/icons/144.png",
+            "src": "/huami/assets/img/icons/144.png",
             "sizes": "144x144",
             "type": "image/png"
         },
         {
-            "src": "/assets/img/icons/192.png",
+            "src": "/huami/assets/img/icons/192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/assets/img/icons/512.png",
+            "src": "/huami/assets/img/icons/512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
